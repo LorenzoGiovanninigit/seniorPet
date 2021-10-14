@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Dogs",
+    "slug": "Dogs",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/petIcon2.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/petIcon2.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.uaffo.Dogs"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
